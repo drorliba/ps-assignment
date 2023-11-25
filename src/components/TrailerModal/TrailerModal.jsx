@@ -12,11 +12,6 @@ const TrailerModal = ({ episodeId }) => {
     }
     const handleClose = () => setIsOpen(false);
 
-    // useEffect(() => {
-    //     console.log(episodeId);
-    //     console.log(media[episodeId]);
-    // }, [])
-
     return (<>
         {
             media[episodeId].trailer &&
