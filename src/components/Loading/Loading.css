@@ -1,0 +1,17 @@
+.skeleton-card {
+    animation: skeleton-loading 1s linear infinite alternate;
+    display: inline;
+    min-width: 10rem;
+    width: 16%;
+    border-radius: 8px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(200, 20%, 70%);
+    }
+
+    100% {
+        background-color: hsl(200, 20%, 95%);
+    }
+}

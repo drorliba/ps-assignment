@@ -1,0 +1,27 @@
+.movie-details {
+    background-size: cover;
+    color: white;
+    border-radius: 8px;
+    width: 85%;
+    height: 52%;
+}
+
+.movie-details-wrapper {
+    margin-top: 7%;
+    margin-left: 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-details-wrapper .title-like-wrapper {
+    display: flex;
+}
+
+.movie-details h2 {
+    font-size: 2rem;
+    max-width: 10rem;
+}
+
+.fav-switch:hover {
+    cursor: pointer;
+}

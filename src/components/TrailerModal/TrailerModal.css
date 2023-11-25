@@ -1,0 +1,23 @@
+.play-trailer-button {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+
+    background: rgba(0, 0, 0, 0.59);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    transition: background 1s;
+}
+
+.play-trailer-button:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.video-player {
+    width: 100%;
+    min-height: 25rem;
+}
